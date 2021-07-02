@@ -1,0 +1,375 @@
+* {
+   margin:0px;
+   padding:0px;
+   font-family: 'Patrick Hand', cursive;
+}
+
+body{
+    background-color: rgba(226, 226, 226, 0.705);
+}
+
+.logo {
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+.logo img{
+    width: 150px;
+    height: 115px;
+    margin: 30px 0px;
+    transition: 0.6s;
+}
+.logo img:hover{
+    transform: scale(1.070);
+}
+.nav{
+    width: 79%;
+    height: 60px;
+    margin-top: 25px ;
+    background-color:white;
+    position: relative;
+    left: 10%;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.411);
+    overflow: hidden;
+}
+.nav ul{
+    list-style: none;
+    text-align: center;
+    font-size: 23px;
+
+}
+.nav ul li{
+    display: inline;
+    margin: 0px;
+    padding: 0px 10px;
+    line-height: 60px;
+    border-right: 1px solid black;
+    border-right-width: 2px;
+
+}
+.nav li a{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+.nav ul a:hover{
+    cursor: pointer;
+    font-size: 26px;
+    
+    
+}
+.body{
+    width: 100%;
+    height: 600px;
+    margin: 20px auto 0px;
+    display: flex;
+    overflow: hidden;
+}
+.body_left{
+    width: 55%;
+    height: 100%;
+    position: relative;
+}
+.left_text{
+    position: absolute;
+    top: 28%;
+    left: 24%;
+}
+.left_text small{
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.507);
+    text-align: left;
+}
+.left_text h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #262525;
+}
+.left_text p{
+    font-size: 30px;
+    text-transform: lowercase;
+    margin: 10px 0px 10px 0px;
+}
+.buttons{
+    margin: 20px 10px 0px 0px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    transition: 0.6s;
+}
+.buttons:hover{
+    cursor:pointer;
+    background-color: #F26C4F;
+    color: black;
+    transform: scale(1.075);
+}
+.body_right{
+    width: 45%;
+    height: 100%;
+    position: relative;
+}
+.body_right img{
+    width: 325px;
+    height: 515px;
+    position: absolute;
+    top: 75px;
+    left: 32%;
+    z-index: -1;
+}
+
+.about{
+    width: 77%;
+    height: 400px;
+    margin: -40px auto 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 7px 7px #5b5455;
+    
+}
+.about_left{
+    width: 45%;
+    height: 100%;
+}
+.left_border{
+    width: 245px;
+    height: 270px;
+    background-color: transparent;
+    border: 8px solid #262525;
+    position: relative;
+    top: 15%;
+    left: 40%;
+}
+.left_border img{
+    width: 240px;
+    height: 280px;
+    background-color: white;
+    position: absolute;
+    top: 25px;
+    left: 27px;
+}
+.about_right{
+    width: 55%;
+    height: 100%;
+    margin: 62px 35px 0px 180px;
+    padding: 0px 70px 0px 120px;
+    text-align: justify;
+    color: #262525;
+}
+.about_right h1{
+    font-size: 34px;
+    line-height: 45px;
+    text-transform: uppercase;
+    
+}
+.about_right small{
+    font-size: 19px;
+    line-height: 45px;
+}
+.about_right p{
+    font-size: 18px;
+}
+.services{
+    width: 100%;
+    height: 750px;
+}
+.services_up{
+    width: 100%;
+    height: 200px;
+    margin: 110px auto 0px;;
+    padding: 35px 0px 0px 0px;
+    text-align: center;
+    line-height: 30px;
+    
+}
+.services_up h1{
+    font-size: 45px;
+    text-decoration: underline;
+    line-height: 70px;
+    letter-spacing: 4px;
+}
+.services_up p{
+    font-size: 25px;
+    padding: 10px 25%;
+    color: #5b5455;
+    line-height: 25px;
+}
+.services_down{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box1 , .box2, .box3{
+    width: 20%;
+    height: 440px;
+    background-color: #171C2A;
+    transition: 0.6s;
+}
+.box1 i, .box2 i, .box3 i{
+    font-size: 2cm;
+    margin: 60px 55px;
+    color: #F26C4F;
+}
+.box1 h1, .box2 h1, .box3 h1{
+    margin: -55px 50px;
+    color: white;
+}
+.box1 p, .box2 p, .box3 p{
+    margin: 70px 50px 28px;
+    color: white;
+    text-align: justify;
+    font-size: 18px;
+}
+.S_buttons{
+    margin: -15px 10px 0px 50px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    transition: 0.6s;
+}
+.S_buttons:hover{
+    cursor:pointer;
+    background-color: #F26C4F;
+    color: black;
+    transform: scale(0.90);
+}
+.box1:hover , .box2:hover, .box3:hover{
+    transform: scale(1.050);
+    border-radius: 30px;
+    box-shadow: 8px 8px #5b5455;
+}
+.bg_image{
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("pics/devlopment.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-size: 38px;
+}
+.blog{
+    width: 100%;
+    height: 750px;
+    margin: 30px 0px;
+}
+.blog_text{
+    width: 100%;
+    height: 160px;
+    margin: 0px auto;
+    text-align: center;
+    padding: 60px 30px 0px;
+    font-size: 28px;
+    text-decoration: underline;
+    line-height: 70px;
+    letter-spacing: 4px;
+}
+
+.blog_box1 , .blog_box2, .blog_box3{
+    width: 20%;
+    height: 350px;
+    transition: 0.6s;
+    margin:0px auto;
+    text-align: center;
+}
+.blog_box1 {
+    background-image: url("pics/blog1.jpg");
+}
+.blog_box2 {
+    background-image: url("pics/blog2.jpg");
+}
+.blog_box3 {
+    background-image: url("pics/blog3.jpg");
+}
+.blog_box1 p, .blog_box2 p, .blog_box3 p{
+    margin: 50px 20px;
+    color: white;
+    font-size: 25px;
+}
+.blog_buttons{
+    margin: 10px auto;
+}
+.blog_box1:hover , .blog_box2:hover, .blog_box3:hover{
+    transform: scale(1.050);
+    border-radius: 30px;
+    box-shadow: 8px 8px #5b5455;
+    cursor: pointer;
+}
+.contacts{
+    width: 50%;
+    height: 600px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 0px auto;
+    transition: 0.5s;
+}
+.contacts:hover{
+    transform: scale(1.050);
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.335);
+
+}
+.contacts h1{
+    margin: 20px auto;
+    padding: 40px 0px 0px;
+    font-size: 38px;
+    text-align: center;
+    text-decoration: underline;
+}
+.contacts p{
+    margin: 20px 35%;
+    font-size: 28px;
+
+}
+.contacts form input{
+    display: block;
+    margin: 0px 35%;
+    width: 30%;
+    height: 35px;
+    text-decoration: none;
+    border: none;
+    border-bottom: 2px solid black;
+}
+.contacts_button{
+    margin: 30px 45%;
+}
+.footer{
+    width: 100%;
+    height: 381px;
+    background-color: #262525;
+    margin: 60px auto 0px;
+}
+.footer p{
+    font-size: 25px;
+    color: white;
+    margin: 15px 30%;
+    text-align: center;
+}
+.social_icon{
+    margin: 0px 44%;
+    display: inline;
+} 
+.social_icon i{
+    font-size: 3vh;
+    margin: 15px 15px;
+    color: white;
+    transition: 0.4s;
+} 
+.social_icon i:hover{
+    cursor: pointer;
+    color:#5b5455;
+    transform: scale(0.90);
+}
